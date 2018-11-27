@@ -105,3 +105,8 @@
         (untabify (match-beginning 0) (match-end 0)))
       (when (looking-at "^  ")
         (replace-match "")))))
+
+;; 背景透過
+(if window-system
+    (progn
+      (set-frame-parameter nil 'alpha 93)))
