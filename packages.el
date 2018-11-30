@@ -29,7 +29,8 @@
     auto-virtualenvwrapper
     queue
     terraform-mode
-    company-terraform))
+    company-terraform
+    rainbow-mode))
 
 ;; リポジトリの設定
 (require 'package)
