@@ -30,7 +30,8 @@
     queue
     terraform-mode
     company-terraform
-    rainbow-mode))
+    rainbow-mode
+    yasnippet))
 
 ;; リポジトリの設定
 (require 'package)
